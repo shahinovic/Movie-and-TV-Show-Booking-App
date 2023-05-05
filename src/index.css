@@ -1,0 +1,58 @@
+body {
+  text-transform: capitalize;
+}
+a {
+  text-decoration: none !important;
+}
+
+.home {
+  height: 80vh;
+  display: grid;
+  place-items: center;
+}
+.home > * {
+  margin-bottom: 10px;
+}
+
+.TvShows .header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.TvShowDetails {
+  display: flex;
+  height: 90vh;
+}
+.TvShowDetails > * {
+  flex-basis: 50%;
+  height: 100%;
+  border: 1px solid green;
+}
+.TvShowDetails .img-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.TvShowDetails .text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+}
+.TvShowDetails .text .summary {
+  font-size: clamp(0.75rem, 1.2vw, 2rem);
+  max-height: 333px;
+  overflow: hidden;
+}
+.TvShowDetails .text .details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.TvShowDetails .text .details > *:not(.rating) > span {
+  color: #3fbf7f;
+}
+.TvShowDetails .text .details .rating svg {
+  color: goldenrod;
+}
