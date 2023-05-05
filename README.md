@@ -2,7 +2,7 @@
 
 This is a movie and TV show booking app built using React, React Bootstrap, Redux Toolkit, and Axios. The app allows users to search for TV shows and movies, view details about them, and book tickets. 
 
-## File Structure
+## src File Structure
 
 ```
 ├── app
